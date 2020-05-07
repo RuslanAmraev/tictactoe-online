@@ -1,0 +1,71 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://million-wallpapers.ru/wallpapers/2/91/433181811146655/chernyj-fon-otverstiya-ya.jpg);
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+}
+
+.row{
+    display: flex;
+    margin: 0 auto;
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.cross{
+    background-image: url(https://avatanplus.com/files/resources/mid/5968a2c8f2ed115d40bbe123.png);
+    background-size: 100%;
+    background-color:red;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+.zero{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Asexual_symbol.svg/2000px-Asexual_symbol.svg.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: blue;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.restart-button{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 20px;
+    background-color: #fff;
+    padding: 0;
+}
+
+.restart-button-image{
+    width: 30px;
+    pointer-events: none;
+}
